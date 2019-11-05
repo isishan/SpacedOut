@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Spaced Out</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Official Student Magazine of SPA Delhi">
+  <meta name="keywords" content="magazine, spacedout, architecture, spa">
+  <meta name="author" content="Ansh Sharma">
+  <link rel='shortcut icon' href='../assets/img/favicon.ico' type='image/x-icon' />
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <link rel="stylesheet" href="../assets/css/policies.css">
+  <link rel="stylesheet" href="../assets/css/policypreloader.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="../assets/img/logo.png" alt="Spaced Out">
+    <p>Spaced Out</p>
+  </a>
+  <p class="device-notification--message">Spaced Out has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div id="status">&nbsp;</div>
+</div>
+
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="../">
+            <img src="../assets/img/logo.png" alt="Spaced Out">
+            <p>Spaced Out</p>
+          </a>
+        </header>
+
+<article class="post">
+    <div>
+        <div class="absolute-bg" style="background-image: url('../assets/img/editor.png');"></div>
+    </div>
+    <div class="post__container">
+        <span class="post__category">LETTERS TO THE EDITOR</span>
+        
+        <div class="post__content">
+        <header>
+            <time class="post__time">By Ansh Sharma (Student's Council 2019-20)</time>
+            <h1 class="post__header"><span>Letters</span> <span>Policy</span> <!-- <span>beach</span> --></h1>
+        </header>
+        
+        <p class="post__text"><i>Spaced Out</i> welcomes and encourages public debate—be it serious or otherwise—through its letters pages. Write about anything: what you think of something you have read in <i>Spaced Out</i>, your pet hates, your pet loves, how you think the magazine could be improved, issues of the day, whatever. <br/><br/>
+
+        Letters must be received atleast 15 days in advance of the publication the next quarter and must be no longer than 250 words. Pseudonyms are fine for anonymous letters, but all letters must include your <strong>real name, institute issued roll number and contact number</strong>. These will not be printed. Please note that letters will <strong>not be corrected for spelling or grammar</strong> and the Editor reserves the right to edit,abridge or decline any letters without explanation.<br/><br/>
+        
+        If you would like to submit a Letter to the Editor please do so on the Contact Us page.</p>
+        <br/><br/>
+
+        </div>
+        <div class="post__link">
+            <div class="backarrow wrapper">
+                <a href="../">
+                <svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="prev" transform="translate(8.500000, 8.500000) scale(-1, 1) translate(-8.500000, -8.500000)">
+                        <polygon class="arrow" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <polygon class="arrow-fixed" points="16.3746667 8.33860465 7.76133333 15.3067621 6.904 14.3175671 14.2906667 8.34246869 6.908 2.42790698 7.76 1.43613596"></polygon>
+                        <path d="M-1.48029737e-15,0.56157424 L-1.48029737e-15,16.1929159 L9.708,8.33860465 L-2.66453526e-15,0.56157424 L-1.48029737e-15,0.56157424 Z M1.33333333,3.30246869 L7.62533333,8.34246869 L1.33333333,13.4327013 L1.33333333,3.30246869 L1.33333333,3.30246869 Z"></path>
+                    </g>
+                </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+<script>
+    $(window).on('load', function() { // makes sure the whole site is loaded 
+    $('#status').delay(1800).fadeOut(); // will first fade out the loading animation 
+    $('#preloader').delay(2000).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+    $('body').delay(2000).css({'overflow':'visible'});
+})
+</script>        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="../assets/js/functions-min.js"></script>
+</body>
+</html>
