@@ -1,5 +1,5 @@
 body {
-    overflow: scroll;
+    overflow: auto;
 }
 
 /* For individual images */
@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 2em;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .post__category {
   position: relative;
