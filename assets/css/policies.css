@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 2em;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 .post__category {
   position: relative;
